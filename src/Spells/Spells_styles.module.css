@@ -1,0 +1,90 @@
+/*
+Spells_Container
+Spell_Image
+Description_Title
+Content
+Combination_Container
+Combination_Title
+Orb_Container
+Individual_Orb
+*/
+.Spells_Container {
+	height: 75vh;
+	width: 450px;
+	margin: 0 auto;
+	background-color: rgb(167, 157, 157);
+	padding: 20px;
+	border-radius: 20px;
+	display: grid;
+	place-items: center;
+	margin-bottom: 40px !important;
+}
+
+.Spells_Container:hover {
+	cursor: pointer;
+}
+.Spell_Image {
+	border-radius: 15px;
+	height: 80px;
+	width: 80px;
+}
+.Description_Container {
+	text-align: center;
+	margin: 1px 0;
+}
+.Description_Title {
+	color: white;
+
+	font-weight: 400;
+}
+.Content {
+	font-weight: bold;
+}
+.Combination_Container {
+	margin: 2px;
+	text-align: center;
+	width: 100%;
+}
+.Combination_Title {
+	color: white;
+}
+.Orbs_Container {
+	display: grid;
+	place-items: center;
+	height: fit-content;
+	width: 100%;
+	margin: 0px;
+	color: black;
+	font-weight: 600;
+}
+.Orbs_Container > div {
+	width: 80%;
+	height: fit-content;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.Individual_Orb {
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+}
+* {
+	user-select: none;
+}
+@media screen and (min-width: 1400px) {
+	.Spells_Container {
+		font-size: 40px;
+		height: 200vh;
+		width: 60vw;
+	}
+	.Spell_Image {
+		height: 50%;
+		width: 20%;
+	}
+	.Individual_Orb {
+		height: 10vh;
+		width: 7vw;
+	}
+}

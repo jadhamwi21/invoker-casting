@@ -1,0 +1,174 @@
+.Title {
+	margin: 10px 0px;
+	border-top: solid 1px black;
+	border-bottom: solid 1px black;
+	color: royalblue;
+	text-align: center;
+	padding: 1px 0px;
+	width: 100%;
+}
+.Title > h1 {
+	margin: 10px;
+}
+.Arrow {
+	display: inline-block;
+	height: 20px;
+	width: 20px;
+}
+.Difficulty_Literal {
+	font-size: 30px;
+	position: relative;
+	top: -2px;
+	margin-left: 5px;
+}
+.Difficulty_Literal:hover {
+	cursor: pointer;
+}
+.Difficulty_Item_Container {
+	border-top: solid 1px black;
+	width: fit-content;
+	min-width: 160px;
+	display: grid;
+	place-items: center;
+}
+.Difficulties_Container {
+	height: fit-content;
+	width: 100%;
+	display: grid;
+	place-items: center;
+	margin: 20px 0px;
+}
+.Difficulties_Container .Difficulty_Item_Container:nth-of-type(1):hover {
+	color: red;
+}
+.Difficulties_Container .Difficulty_Item_Container:nth-of-type(2):hover {
+	color: #deec2f;
+}
+.Difficulties_Container .Difficulty_Item_Container:nth-of-type(3):hover {
+	color: orange;
+}
+.Difficulties_Container .Difficulty_Item_Container:nth-of-type(3) {
+	border-bottom: solid 1px black;
+}
+.easy {
+	color: red;
+}
+.medium {
+	color: #deec2f;
+}
+.hard {
+	color: orange;
+}
+.Persona_Container {
+	height: fit-content;
+	width: 100%;
+	margin: 30px 0px;
+	display: grid;
+	place-items: center;
+}
+.Persona_Image {
+	height: auto;
+	width: auto;
+	min-height: 120px;
+	min-width: 120px;
+	border-radius: 20px;
+}
+.Person_Name_Container {
+	font-size: 25px;
+	margin: 0 auto;
+	height: auto;
+	width: 100%;
+	display: grid;
+	place-items: center;
+	text-align: center;
+}
+.Person_Name_Container p {
+	color: royalblue;
+	font-weight: 600;
+	margin: 0px;
+}
+.Person_Name_Container input {
+	display: block;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 6px;
+	border-radius: 0px;
+	outline: none;
+	border: solid 1px black;
+	padding: 5px;
+	transition-property: border border-radius;
+	transition-timing-function: linear;
+	transition-duration: 0.3s;
+	width: 100%;
+}
+.Person_Name_Container > input:focus {
+	border: solid 1px royalblue;
+	border-radius: 10px;
+}
+.Start_Button {
+	background-color: royalblue;
+	height: fit-content;
+	width: fit-content;
+	border-radius: 10px;
+	border: solid 1.2px black;
+	color: white;
+	outline: none;
+	box-shadow: 0px 5px 20px grey;
+	font-size: 25px;
+	padding: 6px 20px;
+}
+.Start_Button:hover {
+	cursor: pointer;
+	opacity: 0.95;
+}
+.Start_Button_Container {
+	height: fit-content;
+	width: fit-content;
+	margin: 20px auto 0px auto;
+}
+.MenuContainer {
+	height: fit-content;
+	width: 100%;
+}
+.MenuSelectionDiv {
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	place-items: center;
+}
+@media screen and (min-width: 1400px) {
+	.Title {
+		font-size: 2.25rem;
+	}
+	.Persona_Image {
+		height: 40vh;
+		width: 20vw;
+	}
+	.Difficulties_Container {
+		width: 100%;
+	}
+	.Difficulty_Item_Container {
+		width: 100%;
+	}
+	.Difficulty_Literal {
+		font-size: 3.5rem;
+	}
+	.Person_Name_Container {
+		font-size: 4rem;
+		margin-bottom: 40px;
+	}
+	.Person_Name_Container input {
+		height: 3rem;
+		width: 100%;
+		margin: 0px auto;
+		max-width: initial;
+		font-size: 40px;
+	}
+	.Start_Button {
+		padding: 20px 40px;
+		font-size: 40px;
+	}
+	.MenuSelectionDiv {
+		height: 150vh;
+	}
+}

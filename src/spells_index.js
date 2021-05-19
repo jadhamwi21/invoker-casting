@@ -1,0 +1,21 @@
+import Coldsnap from "./assets/Spells/Cold Snap.png";
+import EMP from "./assets/Spells/EMP.png";
+import Ghostwalk from "./assets/Spells/Ghost Walk.png";
+import Icewall from "./assets/Spells/Ice Wall.png";
+import Tornado from "./assets/Spells/Tornado.png";
+import Alacrity from "./assets/Spells/Alacrity.png";
+import Forgespirit from "./assets/Spells/forgespirit.png";
+import Chaosmeteor from "./assets/Spells/chaos_meteor.png";
+import Sunstrike from "./assets/Spells/sunstrike.png";
+import DeafeningBlast from "./assets/Spells/Deafening Blast.png";
+
+export const coldsnap = Coldsnap;
+export const emp = EMP;
+export const ghostwalk = Ghostwalk;
+export const icewall = Icewall;
+export const tornado = Tornado;
+export const alacrity = Alacrity;
+export const forgespirit = Forgespirit;
+export const chaosmeteor = Chaosmeteor;
+export const sunstrike = Sunstrike;
+export const deafeningblast = DeafeningBlast;

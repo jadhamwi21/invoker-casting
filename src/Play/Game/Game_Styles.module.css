@@ -1,0 +1,72 @@
+.Header {
+	text-align: center;
+}
+.Title {
+	color: royalblue;
+	margin: 0px;
+	display: inline-block;
+	text-align: center;
+}
+.Timer {
+	display: grid;
+	place-items: center;
+	width: fit-content;
+	height: auto;
+	padding: 20px;
+	border: solid 1px royalblue;
+	position: absolute;
+	box-sizing: border-box;
+	top: 100%;
+	left: 50%;
+	margin-top: 6rem;
+	font-size: 25px;
+	transform: translate(-50%, -50%);
+}
+
+.Invoke_This_Spell {
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+}
+.Invoke_This_Spell_Container {
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+}
+.orb {
+	height: 100%;
+	width: 100%;
+	border-radius: 40px;
+}
+.orb_container {
+	height: 80px;
+	width: 80px;
+	border-radius: 40px;
+	background-color: black;
+}
+.Invoke_Playground {
+	background-color: white;
+	height: fit-content;
+	width: 40vw;
+	margin: 0 auto;
+	margin-top: 60px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+.GameWrapper {
+	height: fit-content;
+	width: fit-content;
+	margin: 0 auto;
+	position: relative;
+}
+@media screen and (min-width: 1400px) {
+	.Timer {
+		font-size: 50px;
+		margin-top: 13rem;
+	}
+	.Title {
+		font-size: 2rem;
+	}
+}
