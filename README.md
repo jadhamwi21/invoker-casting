@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+﻿<<<<<<< HEAD
 ﻿**Invoker Practice Tool**
 -
 **Description :**
@@ -47,4 +47,3 @@ When The Time Is Up, Test Finishes And Shows You The Result By How Many Spells Y
  ---
 =======
 
->>>>>>> b83d74d5930794f10b208f5b3f94d416c002b37b
