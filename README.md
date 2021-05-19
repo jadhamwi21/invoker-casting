@@ -1,3 +1,5 @@
+﻿
+<<<<<<< HEAD
 ﻿**Invoker Practice Tool**
 -
 **Description :**
@@ -44,5 +46,5 @@ If Not -- **Invoked Spells Will Count Up** -- .
 When The Time Is Up, Test Finishes And Shows You The Result By How Many Spells You Invoked By The Time.
  
 ---
-
-
+**You Can Demo This Project By Opening This Link :**
+ *https://codesandbox.io/s/ce4en*
