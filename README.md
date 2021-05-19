@@ -44,6 +44,6 @@ If Not -- **Invoked Spells Will Count Up** -- .
 ---
 When The Time Is Up, Test Finishes And Shows You The Result By How Many Spells You Invoked By The Time.
  
- ---
-=======
+---
+
 
