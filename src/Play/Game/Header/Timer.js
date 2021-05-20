@@ -1,7 +1,7 @@
 import Classes from "../Game_Styles.module.css";
 import { useState, useEffect } from "react";
 const Timer = (props) => {
-	const [Time, setTime] = useState(props.time * 60000);
+	const [Time, setTime] = useState(props.time * 60);
 	const Time_Format = () => {
 		let minutes = Math.floor(Time / 60);
 		let seconds = (Time % 60).toLocaleString("en-us", {

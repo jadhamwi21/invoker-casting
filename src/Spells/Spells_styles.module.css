@@ -19,6 +19,13 @@ Individual_Orb
 	place-items: center;
 	margin-bottom: 40px !important;
 }
+.Spells_Container > div {
+	width: 100%;
+	display: flex;
+	height: fit-content;
+	align-items: center;
+	flex-direction: column;
+}
 
 .Spells_Container:hover {
 	cursor: pointer;
@@ -73,18 +80,18 @@ Individual_Orb
 * {
 	user-select: none;
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1200px) {
 	.Spells_Container {
-		font-size: 40px;
-		height: 200vh;
-		width: 60vw;
+		font-size: 1.75rem;
+		width: 80vw;
+		height: 150vh;
 	}
 	.Spell_Image {
-		height: 50%;
-		width: 20%;
+		height: 10rem;
+		width: 10rem;
 	}
 	.Individual_Orb {
-		height: 10vh;
-		width: 7vw;
+		height: 5rem;
+		width: 5rem;
 	}
 }

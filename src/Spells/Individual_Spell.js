@@ -33,15 +33,17 @@ const Individual_Spell = (props) => {
 	};
 	return (
 		<div className={Classes.Spells_Container}>
-			<img src={props.source} className={Classes.Spell_Image} />
-			<div className={Classes.Description_Container}>
-				<p className={Classes.Description_Title}>Description</p>
-				<p className={Classes.Content}>{props.content}</p>
-			</div>
-			<div className={Classes.Combination_Container}>
-				<p className={Classes.Combination_Title}>Combination</p>
-				<div className={Classes.Orbs_Container}>
-					<div>{Generate_Orbs()}</div>
+			<div>
+				<img src={props.source} className={Classes.Spell_Image} />
+				<div className={Classes.Description_Container}>
+					<p className={Classes.Description_Title}>Description</p>
+					<p className={Classes.Content}>{props.content}</p>
+				</div>
+				<div className={Classes.Combination_Container}>
+					<p className={Classes.Combination_Title}>Combination</p>
+					<div className={Classes.Orbs_Container}>
+						<div>{Generate_Orbs()}</div>
+					</div>
 				</div>
 			</div>
 		</div>
