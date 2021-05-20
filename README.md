@@ -1,5 +1,3 @@
-﻿
-<<<<<<< HEAD
 ﻿**Invoker Practice Tool**
 -
 **Description :**
