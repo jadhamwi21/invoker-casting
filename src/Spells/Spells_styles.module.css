@@ -80,18 +80,3 @@ Individual_Orb
 * {
 	user-select: none;
 }
-@media screen and (min-width: 1400px) {
-	.Spells_Container {
-		font-size: 1.75rem;
-		width: 80vw;
-		height: 150vh;
-	}
-	.Spell_Image {
-		height: 10rem;
-		width: 10rem;
-	}
-	.Individual_Orb {
-		height: 5rem;
-		width: 5rem;
-	}
-}

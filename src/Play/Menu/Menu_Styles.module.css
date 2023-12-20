@@ -136,39 +136,3 @@
 	display: grid;
 	place-items: center;
 }
-@media screen and (min-width: 1400px) {
-	.Title {
-		font-size: 2.25rem;
-	}
-	.Persona_Image {
-		height: 40vh;
-		width: 20vw;
-	}
-	.Difficulties_Container {
-		width: 100%;
-	}
-	.Difficulty_Item_Container {
-		width: 100%;
-	}
-	.Difficulty_Literal {
-		font-size: 3.5rem;
-	}
-	.Person_Name_Container {
-		font-size: 4rem;
-		margin-bottom: 40px;
-	}
-	.Person_Name_Container input {
-		height: 3rem;
-		width: 100%;
-		margin: 0px auto;
-		max-width: initial;
-		font-size: 40px;
-	}
-	.Start_Button {
-		padding: 20px 40px;
-		font-size: 40px;
-	}
-	.MenuSelectionDiv {
-		height: 150vh;
-	}
-}

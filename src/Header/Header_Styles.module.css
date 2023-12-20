@@ -31,16 +31,3 @@
 .Item.Selected {
 	color: royalblue;
 }
-@media screen and (min-width: 1400px) {
-	.Header {
-		height: 25vh;
-	}
-	.Item {
-		height: fit-content;
-		width: fit-content;
-		padding: 25px;
-	}
-	.Item > div {
-		font-size: 3rem;
-	}
-}

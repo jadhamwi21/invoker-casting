@@ -24,8 +24,3 @@
 	width: 25%;
 	height: auto;
 }
-@media screen and (max-width: 1000px) {
-	.NotAllowedWrapper img {
-		width: 50%;
-	}
-}
